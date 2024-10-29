@@ -1,0 +1,14 @@
+.rednaoGroupContainer .rnTitle{
+    padding: 0;
+    margin:0;
+}
+
+.rnGroupFieldContainer{
+    margin: -3px;
+    margin-bottom: -13px;
+}
+
+.rnGroupFieldContainer>rn-fbrow:last-child .rnField
+{
+
+}

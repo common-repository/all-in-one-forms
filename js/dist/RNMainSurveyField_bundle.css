@@ -1,0 +1,26 @@
+.rnsurvey thead th{
+    background-color: #e6e6e6;
+    font-weight: normal;
+}
+
+.rnsurvey tbody td,.rnsurvey thead th{
+    padding:8px;
+    border:1px solid #ddd;
+}
+
+
+
+
+.rnsurvey table{
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+
+.rnsurvey table tbody tr:nth-child(odd){
+    background: #f9f9f9;
+}
+
+.rnField.rnsurvey table td {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+}

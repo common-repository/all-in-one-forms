@@ -1,0 +1,28 @@
+.rnsimpletext .rnFieldAndLabel{
+    display: flex;
+}
+
+.rnsimpletext.rnBottom .rnFieldAndLabel{
+    flex-direction: column;
+}
+
+.rnsimpletext.rnLeft .rnFieldAndLabel{
+    flex-direction: row-reverse;
+}
+
+.rnsimpletext.rnRight .rnFieldAndLabel{
+    flex-direction:row;
+}
+
+.rnsimpletext.rnRight .rnFieldContainer,.rnsimpletext.rnLeft .rnFieldContainer{
+    flex-grow: 1;
+}
+
+.rnsimpletext.rnRight .rnFieldContainer{
+    text-align: right;
+}
+
+
+.rnsimpletext.rnLeft .rnFieldContainer{
+    text-align: left;
+}

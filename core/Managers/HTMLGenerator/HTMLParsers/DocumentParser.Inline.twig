@@ -1,0 +1,31 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\HTMLGenerator\HTMLParsers\DocumentParser #}
+{% apply spaceless %}
+{% apply inline_css(true) %}
+   <style>
+      ul{
+         text-align: left;
+      }
+
+      .par{
+         margin-bottom: 5px;
+      }
+
+      ol{
+         text-align: left;
+      }
+
+      table{
+         width: 100%;
+      }
+
+      table td{
+         text-align: left;
+      }
+
+      {{ Model.GetCustomStyles }}
+   </style>
+<div>
+   {{ Model.RenderChildren() }}
+</div>
+{% endapply %}
+{% endapply %}

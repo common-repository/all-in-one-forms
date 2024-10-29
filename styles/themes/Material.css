@@ -1,0 +1,45 @@
+.rednaoForm.Material input[type="text"],
+.rednaoForm.Material input[type="number"],
+.rednaoForm.Material input[type="password"],
+.rednaoForm.Material input[type="email"],
+.rednaoForm.Material input[type="url"],
+.rednaoForm.Material textarea,
+.rednaoForm.Material select
+{
+    position: relative;
+    z-index: 1;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-bottom-color: rgba(0,0,0,0.25);
+    height: auto;
+    padding: 3px 0 5px;
+    transition: border-bottom-color .2s ease-in-out !important;
+
+}
+
+
+
+.rednaoForm.Material input[type="text"]:focus,
+.rednaoForm.Material input[type="number"]:focus,
+.rednaoForm.Material input[type="password"]:focus,
+.rednaoForm.Material input[type="email"]:focus,
+.rednaoForm.Material input[type="url"]:focus,
+.rednaoForm.Material textarea:focus,
+.rednaoForm.Material select:focus
+{
+    box-shadow: none !important;
+    border-bottom-color: blue;
+}
+
+.rnlist td,.rnlist table{
+    border: none !important;
+
+}
+
+
+
+
+
+
+
+

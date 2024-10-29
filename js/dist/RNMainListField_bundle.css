@@ -1,0 +1,42 @@
+.rnListContainer th{
+    padding:0;
+}
+
+.rnListContainer th,.rnListContainer td{
+    padding-right:2px;
+}
+
+.rnListContainer td{
+    border-top: none;
+}
+
+.rnListContainer{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+
+
+.rnListContainer .rnButtonContainer{
+    padding-left: 3px;
+}
+
+.rnRemove,.rnAdd{
+    cursor: pointer;
+    transition: 200ms ease-in-out color;
+}
+
+.rnRemove:hover,.rnAdd:hover{
+    color: red;
+}
+
+.rnListContainer tr td:first-child{
+    padding-left:0;
+
+}
+
+
+.rnListContainer tr td:last-child{
+    padding-right:0;
+
+}

@@ -1,0 +1,7 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\ContainerManager\RowRenderer #}
+
+<tr>
+    {% for column in Model.Columns %}
+        {{ column.Render }}
+    {% endfor %}
+</tr>

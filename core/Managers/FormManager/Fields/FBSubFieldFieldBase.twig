@@ -1,0 +1,6 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBFieldBase #}
+<div class="field_{{ Model.Options.Id }} field type_{{ Model.Options.Type }} path_{{ PathId }}"  style="display: {{ Model.GetBlockType }}">
+    {% block content %}
+        {{ Model.GetSubText(PathId) | nl2br }}
+    {% endblock %}
+</div>

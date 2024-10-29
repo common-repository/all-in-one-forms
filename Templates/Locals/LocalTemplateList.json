@@ -1,0 +1,5 @@
+[
+  {"Id":"Blank","Label":"Blank","Description":"Start from zero with this empty template"},
+  {"Id":"BasicProductForm","Label":"Basic Product Form","Description":"A simple form that let users select a product and a quantity"},
+  {"Id":"ContactForm","Label":"Contact Form","Description":"A simple contact form"}
+]

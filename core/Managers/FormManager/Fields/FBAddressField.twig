@@ -1,0 +1,14 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBAddressField #}
+{% block content %}
+    {% for currentSection in Model.GetSections %}
+        {% if currentSection | length  == 1 %}
+            {{ currentSection[0] }}
+        {% endif %}
+        {% if currentSection | length  == 2 %}
+            {{ currentSection[0] }}, {{ currentSection[1] }}
+        {% endif %}
+        <br/>
+
+    {% endfor %}
+{% endblock %}

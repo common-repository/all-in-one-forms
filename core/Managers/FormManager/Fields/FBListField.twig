@@ -1,0 +1,30 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBListField #}
+{% block content %}
+    {% set items = Model.GetItems %}
+
+    <table style="width: auto;border-collapse: collapse;">
+        {% if items.Columns | length >0 %}
+            <thead>
+            <tr>
+                {% for currentColumn in items.Columns %}
+                    <th style="padding:5px;border:1px solid #888;text-align: left">
+                        {{ currentColumn.Name }}
+                    </th>
+                {% endfor %}
+            </tr>
+            </thead>
+        {% endif %}
+
+        <tbody>
+            {% for currentRow in items.Rows %}
+                <tr>
+                    {% for currentColumn in currentRow.Columns %}
+                        <td style="padding:5px;border:1px solid #888;">{{ currentColumn }}</td>
+                    {% endfor %}
+                </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

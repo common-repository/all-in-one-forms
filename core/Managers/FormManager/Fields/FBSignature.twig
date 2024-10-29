@@ -1,0 +1,5 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBSignature #}
+{% block content %}
+    <img style="width: 100%;max-width:100%;max-height:100%;display: block;min-width: 150px" src="{{ Model.GetSignatureURL(Context) }}"/>
+{% endblock %}

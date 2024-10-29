@@ -1,0 +1,38 @@
+
+.rnField textarea
+{
+    transition: border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    box-sizing: border-box;
+    min-height: 120px;
+    outline: aliceblue;
+}
+
+
+.rnField textarea{
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 3.5px;
+}
+.rnField{
+    transition: color 200ms ease-in-out;
+}
+
+.rnField textarea:focus{
+    border-color:#66afe9;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.rnField textarea[readonly]
+{
+    background-color: #e9ecef;
+}
+
+
+.rnField textarea:focus{
+    border-color:#66afe9;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+rn-text-area-field textarea{
+    background-color: white;
+}

@@ -1,0 +1,21 @@
+.chaincontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chaincontainer.horizontal{
+    flex-direction: row;
+}
+
+.chaincontainer.horizontal rn-chained-select-item{
+    margin-right: 5px;
+}
+
+.chaincontainer.vertical{
+    flex-direction: column;
+
+}
+
+.chaincontainer.vertical rn-chained-select-item{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,61 @@
+.rnStep {
+    margin: 0 10px;
+}
+.rnStepLabels{
+    transition: color 200ms ease-in-out;
+}
+.rnStepLabels.rnActive{
+    color: blue;
+}
+
+.fieldAndImageContainer.top rness-step-image{
+    margin-bottom: 3px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.fieldAndImageContainer.left,.fieldAndImageContainer.right{
+    display: flex;
+}
+
+
+.fieldAndImageContainer.left rness-step-image{
+    margin-right: 3px;
+    align-items: center;
+}
+
+.fieldAndImageContainer.right{
+    flex-direction: row-reverse;
+}
+
+.fieldAndImageContainer.right rness-step-image{
+    margin-left: 3px;
+    align-items: center;
+
+}
+
+
+@media (max-width: 576px) {
+    rness-step-image{
+        display:none !important;
+    }
+}
+.msProgressBar{
+    background-color: #ddd;
+    height: 18px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.msProgressCompleted{
+    background-color: #72b239;
+    height: 100%;
+    transition: width 200ms ease-in-out;
+}
+
+.ProgressLabel{
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: inline-block;
+}

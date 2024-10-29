@@ -1,0 +1,1 @@
+rndefine("#RNMainRNGetParameter",["exports","#RNMainFormulaCore/FRDataRetriever"],(function(e,r){"use strict";function t(e,r){return new URL(window.location.href).searchParams.get(r)}r.FRDataRetriever.GlobalFunctions.set("RNGetParameter",t),e.RNGetParameter=t,Object.defineProperty(e,"__esModule",{value:!0})}));

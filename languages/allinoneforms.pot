@@ -1,0 +1,196 @@
+# Copyright (C) 2022 RedNao
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: All in one forms 1.2.41\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-calculation-forms-lit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-09T18:32:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: allinoneforms\n"
+
+#. Plugin Name of the plugin
+msgid "All in one forms"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://allinoneforms.rednao.com/getit"
+msgstr ""
+
+#. Description of the plugin
+msgid "Everything that you need in one place"
+msgstr ""
+
+#. Author of the plugin
+msgid "RedNao"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://rednao.com"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Sun"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Mon"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Tue"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Wed"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Thu"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Fri"
+msgstr ""
+
+#: core/LibraryManager.php:29
+msgid "Sat"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Sunday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Monday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Tuesday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Wednesday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Thursday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Friday"
+msgstr ""
+
+#: core/LibraryManager.php:30
+msgid "Saturday"
+msgstr ""
+
+#: core/LibraryManager.php:33
+msgid "Jan"
+msgstr ""
+
+#: core/LibraryManager.php:33
+msgid "Feb"
+msgstr ""
+
+#: core/LibraryManager.php:33
+msgid "Mar"
+msgstr ""
+
+#: core/LibraryManager.php:33
+msgid "Apr"
+msgstr ""
+
+#: core/LibraryManager.php:34
+#: core/LibraryManager.php:35
+msgid "May"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Jun"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Jul"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Aug"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Sep"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Oct"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Nov"
+msgstr ""
+
+#: core/LibraryManager.php:34
+msgid "Dec"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "January"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "February"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "March"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "April"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "June"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "July"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "August"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "September"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "October"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "November"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "December"
+msgstr ""
+
+#: core/LibraryManager.php:38
+msgid " to "
+msgstr ""
+
+#: core/Loader.php:73
+msgid "Help/Documentation"
+msgstr ""
+
+#: core/Loader.php:80
+msgid "Settings"
+msgstr ""

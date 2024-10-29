@@ -1,0 +1,32 @@
+.wptable-action:hover{
+    color: red !important;
+}
+
+.sorting-item.selected{
+    color:#1d2327;
+}
+
+.sorting-item{
+    cursor: pointer;
+    color:#a7aaad;
+}
+
+
+.sorting-indicator-list:not(.selected):hover .sorting-item.asc{
+    color:#1d2327 !important;
+}
+
+.sorting-indicator-list.selected:hover .sorting-item:not(.selected){
+    color:#1d2327 !important;
+}
+
+.sorting-indicator-list.selected:hover .sorting-item.selected{
+    color:#a7aaad !important;
+}
+
+
+
+.rnwpnavbutton:hover {
+	background-color: #f4f4f4;
+	border-color: #bbb !important;
+}

@@ -1,0 +1,18 @@
+.rnFilePlaceholder{
+    border-color:#ccc !important;
+}
+
+
+.rnFilePlaceholder.active{
+    border-color:red !important;
+}
+
+.rnFilePlaceholder.active *{
+    pointer-events: none;
+}
+
+.RNFBFileRemove:hover{
+    color:red;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+}

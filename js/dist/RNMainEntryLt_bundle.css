@@ -1,0 +1,168 @@
+body {
+	overflow: auto !important;
+}
+
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+	min-height: auto;
+}
+
+
+
+#adminmenu {
+	display: block !important;
+}
+
+ul#adminmenu li {
+	list-style-type: none;
+	list-style-position: outside; }
+
+
+rn-advanced-options-conditions .ts-input{
+	min-height: 30px;
+}
+
+
+rn-advanced-options-conditions rn-inputs-datepicker input{
+	height: 30px !important;
+	min-height: 30px !important;
+}
+
+.actionItem .actionIcon{
+	opacity: 0;
+	transition: all ease-in-out 200ms;
+}
+
+
+.actionItem:hover .actionIcon{
+	opacity: 1;
+
+}
+
+.actionPencil{
+	cursor: pointer;
+}
+
+.actionIcon:hover{
+	color: red;
+}
+
+.metaRow{
+	margin-bottom: 10px;
+}
+.meta-label{
+	margin-right: 5px;
+}
+.meta-label,.meta-value{
+	display: inline-block;
+}
+
+.meta-value{
+	font-weight: normal;
+}
+
+.entryViewTitle,.entryViewValue{
+    padding: 10px;
+}
+
+.entryViewTitle{
+    background-color: #ebf3fb;
+    font-weight: bold;
+}
+
+.entryViewValue{
+    background-color: white;
+}
+
+.fields,.sidebar{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fields{
+    width:70%;
+}
+
+.sidebar{
+    width: 29%;
+    float: right;
+    vert-align: top;
+}
+
+.actionItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.actionItem a{
+    text-decoration: none;
+}
+
+.actionItem a:hover{
+    text-decoration: underline;
+}
+@media not print{
+    .printOnly{
+        display: none;
+    }
+}
+@media print{
+    body > *{
+        visibility:hidden !important;
+        -webkit-print-color-adjust: exact;
+
+    }
+
+    .sidebar{
+        display: none;
+    }
+    .fields{
+        width: 100% !important;
+    }
+    #wpbody{
+        visibility: visible;
+        position:absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+    }
+
+    .sidebar,button{
+        display: none !important;
+    }
+}
+
+.entryViewValue p{
+    margin:0
+}
+
+.entryPanel{
+    background-color: white;
+    margin-top: 20px;
+    border:1px solid #ccc;
+}
+
+.entryPanelTitle{
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.entryPanelContent{
+    padding:10px;
+}
+
+
+rn-entry-detail-item input{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+rn-entry-detail-item button{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}

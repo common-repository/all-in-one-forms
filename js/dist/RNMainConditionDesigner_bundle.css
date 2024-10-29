@@ -1,0 +1,17 @@
+.conditionToolBar{
+    display: flex;
+    align-items: center;
+}
+
+.conditionToolBar rn-fontawesome{
+    opacity: .2;
+    cursor: pointer;
+}
+
+.conditionToolBar rn-fontawesome.active{
+    opacity: 1;
+}
+
+.conditionToolBar rn-fontawesome:hover{
+    color: red;
+}

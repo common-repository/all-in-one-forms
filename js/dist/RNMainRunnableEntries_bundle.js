@@ -1,0 +1,1 @@
+rndefine("#RNMainRunnableEntries",["#RNMainFormBuilderCore/CurrencyManager","lit","#RNMainEntry/Entries.Model","#RNMainEntry/Entries.Options"],(function(e,n,r,i){"use strict";e.CurrencyManager.Initialize(rednaoFormDesigner.Currency),n.render(new r.EntriesModel((new i.EntriesOptions).Merge()).render(),document.getElementById("App"))}));

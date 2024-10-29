@@ -1,0 +1,24 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBGoogleMaps #}
+{% block content %}
+    {% for address in Model.GetAddresses  %}
+        <div style="margin-bottom: 15px">
+        {% for currentSection in address %}
+            <div style="margin-bottom: 5px">
+                {% if currentSection | length  == 1 %}
+                    {{ currentSection[0] }}
+                {% endif %}
+                {% if currentSection | length  == 2 %}
+                    {{ currentSection[0] }}, {{ currentSection[1] }}
+                {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+    {% endfor %}
+
+    {% set Image = Model.GetMapURL(Context) %}
+    {% if Image != '' %}
+        <img style="width: 100%" src="{{ Image }}"/>
+    {% endif %}
+
+{% endblock %}

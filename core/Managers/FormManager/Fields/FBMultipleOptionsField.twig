@@ -1,0 +1,15 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBMultipleOptionsField #}
+{% block content %}
+    {% if Model.GetSelectedOptions|length==1 %}
+        {{ Model.GetOptionLabel(Model.GetSelectedOptions()[0]) }}
+    {% endif %}
+
+    {% if Model.GetSelectedOptions|length>1 %}
+        <ul style="margin:0;padding: 0;list-style: inside">
+            {% for currentOption in Model.GetSelectedOptions  %}
+                <li style="margin:0;padding: 0;list-style-position:inside;margin-bottom: 2px;">{{Model.GetOptionLabel(currentOption) }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,55 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\HTMLGenerator\HTMLParsers\DocumentParser #}
+
+{% apply inline_css %}
+   <style>
+      ul{
+         text-align: left;
+      }
+
+      .par{
+         margin-bottom: 5px;
+      }
+
+      ol{
+         text-align: left;
+      }
+
+
+      table td{
+         text-align: left;
+      }
+
+      body{
+         background-color: #888;
+         font-family:'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+
+      }
+
+      .EmailRootContainer{
+         border-collapse: collapse;
+         background-color: white;
+      }
+
+      {{ Model.GetCustomStyles }}
+   </style>
+   <center>
+      <table style="width: 100%;padding: 10px;" border="0" cellspacing="0" cellpadding="0">
+         <tbody>
+            <tr>
+               <td></td>
+               <td align="center" width="800" class="EmailRootContainer" style="background-color: white;text-align: center;padding:30px;">
+                  <table style="width: 100%">
+                     <tr>
+                        <td>
+                           {{ Model.RenderChildren() }}
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+               <td></td>
+            </tr>
+         </tbody>
+
+      </table>
+   </center>
+{% endapply %}

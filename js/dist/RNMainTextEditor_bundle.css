@@ -1,0 +1,139 @@
+.singleLine .ProseMirror{
+    min-height: 33.5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding-top: 9px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.singleLine .ProseMirror.ProseMirror-focused{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.singleLine .ProseMirror{
+    padding-right: 30px;
+}
+
+rn-single-line-text-editor .rnIcon{
+    color:#888;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+}
+
+
+rn-single-line-text-editor .rnIcon:hover{
+    color:red;
+}
+
+.singleLine .ProseMirror{
+    line-height: 1.4em;
+}
+
+
+.ProseMirror{
+	background-color: transparent !important;
+}
+
+.ProseMirror:focus{
+	background-color: rgba(255,255,255,.2) !important;
+}
+
+rn-text-container .editor{
+	margin:0;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+rn-text-container .ProseMirror{
+	padding:0;
+}
+
+rn-text-container h1,
+rn-text-container h2,
+rn-text-container h3,
+rn-text-container h4,
+rn-text-container h5,
+rn-text-container h6 {
+	margin:0 !important;
+	padding: 0 !important;
+}
+
+rn-text-container{
+	z-index: 1000000000;
+	position: relative;
+}
+
+rn-text-container p{
+	margin: 0;
+	line-height: inherit;
+}
+
+rn-text-container strong{
+	font-weight: bold;
+}
+
+
+rn-text-container .ProseMirror p:first-child,
+rn-text-container .ProseMirror h1:first-child,
+rn-text-container .ProseMirror h2:first-child,
+rn-text-container .ProseMirror h3:first-child,
+rn-text-container .ProseMirror h4:first-child,
+rn-text-container .ProseMirror h5:first-child,
+rn-text-container .ProseMirror h6:first-child
+{
+	margin:0;
+}
+
+
+
+rn-text-container{
+	cursor: text;
+}
+
+rn-text-container{
+	display: inline-block;
+}
+.proseAlignment{
+    display: flex;
+}
+
+.reinvented-color-wheel,.reinvented-color-wheel--hue-handle,.reinvented-color-wheel--hue-wheel,.reinvented-color-wheel--sv-handle,.reinvented-color-wheel--sv-space{touch-action:manipulation;touch-action:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.reinvented-color-wheel{position:relative;display:inline-block;line-height:0;border-radius:50%}.reinvented-color-wheel--hue-wheel{border-radius:50%}.reinvented-color-wheel--sv-space{position:absolute;left:0;top:0;right:0;bottom:0;margin:auto}.reinvented-color-wheel--hue-handle,.reinvented-color-wheel--sv-handle{position:absolute;box-sizing:border-box;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #000 inset}.reinvented-color-wheel--hue-handle{pointer-events:none}
+.floatingMenu{
+    box-shadow: 1px 2px 3px -2px #222;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000000000000000;
+}
+
+.menuWrapper.show{
+   transform: translateY(0);
+   opacity: 1;
+    display: block !important;;
+}
+
+.menuWrapper{
+    z-index: 10000000000000000;
+}
+
+.menuWrapper{
+    justify-content: center;
+    height: 35px;
+    position: absolute;
+    top:-35px;
+    transition: opacity 100ms ease-in-out, transform 100ms ease-in-out;
+    z-index: 1000000000000;
+    transform: translateY(35px);
+    left:auto;
+    right: auto;
+    opacity: 0;
+}
+
+.ProseMirror-menubar.floatingMenu
+{
+    flex-wrap: nowrap;
+}

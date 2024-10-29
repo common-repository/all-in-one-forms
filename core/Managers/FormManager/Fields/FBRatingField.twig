@@ -1,0 +1,18 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBRatingField #}
+{% block content %}
+    <div class="rating-container" style="display: inline-flex;align-items: center;">
+        {% for i in 1..Model.GetNumberOfFullStars  %}
+            <img src="{{ Model.GetFullStarURL }}"/>
+        {% endfor %}
+
+        {% if Model.ShouldShowHalfStar %}
+            <img src="{{ Model.GetHalfStarURL }}"/>
+        {% endif %}
+
+        <span style="margin-left:5px">
+            {{ Model.GetValue }}/{{ Model.GetNumberOfItems }}
+        </span>
+    </div>
+
+{% endblock %}

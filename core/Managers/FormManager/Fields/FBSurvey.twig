@@ -1,0 +1,28 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBSurvey #}
+{% block content %}
+    <table style="border-collapse: collapse;table-layout: fixed;width: 100%;">
+        <thead>
+            <tr>
+                <td style="border:1px solid #888;"></td>
+                {% for currentColumn in Model.Options.Columns  %}
+                    <td style="text-align: center; border: 1px solid #888;padding: 5px">{{ currentColumn.Label }}</td>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for currentRow in Model.Options.Rows %}
+                <tr>
+                    <td style="text-align: center; border: 1px solid #888;padding: 5px">{{ currentRow.Label }}</td>
+                    {% for currentColumn in Model.Options.Columns %}
+                        <td style="text-align: center; border: 1px solid #888;padding: 5px">
+                            {% if Model.WasOptionSelected(currentRow,currentColumn) %}
+                                <div style="font-family: DejaVu Sans, sans-serif;">✔</div>
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

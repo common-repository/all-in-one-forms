@@ -1,0 +1,13 @@
+.rnsignature .rnRemove{
+    cursor: pointer;
+    transition: 200ms color ease-in-out;
+}
+
+.rnsignature .rnRemove:hover{
+    color: red;
+}
+
+.rnsignature .rnRemove.disabled{
+    pointer-events: none;
+    opacity: .5;
+}

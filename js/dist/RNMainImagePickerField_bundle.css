@@ -1,0 +1,33 @@
+.rnImagePickerContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rnImagePickerContainer .rnImagePickerItem{
+    margin:5px;
+    cursor:pointer;
+    text-align: center;
+}
+
+
+.rnImagePickerContainer .rnSelected span{
+    font-weight: 600;
+}
+
+
+
+
+.rnImagePickerContainer .rnImagePickerImage{
+    border:2px #dfdfdf solid;
+    transition: border 200ms ease-in-out;
+}
+
+
+.rnImagePickerContainer .rnImagePickerImage:hover
+{
+    border-color: #afafaf;
+}
+
+.rnImagePickerContainer .rnSelected .rnImagePickerImage,.rnImagePickerContainer .rnSelected .rnImagePickerImage:hover{
+    border-color:red;
+}

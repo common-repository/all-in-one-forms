@@ -1,0 +1,11 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\HTMLGenerator\HTMLParsers\Core\ParserWithMarks #}
+{% apply spaceless %}
+
+{% set linkData = Model.GetLinkData %}
+
+{% if linkData is not null %}
+    <a style="{{ Model.GetStyles }}" href="{{ linkData.href }}" target="{{ linkData.target }}">{{ Model.ChildNode.Render }}</a>
+{% else %}
+    <span style="{{ Model.GetStyles }}">{{ Model.ChildNode.Render() }}</span>
+{% endif %}
+{% endapply %}

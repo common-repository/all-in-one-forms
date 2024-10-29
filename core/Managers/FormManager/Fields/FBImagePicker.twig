@@ -1,0 +1,29 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBImagePicker #}
+{% block content %}
+    <div>
+    {% for currentOption in Model.GetSelectedOptions %}
+        <div style="vertical-align: top;border: 1px solid #ccc;padding: 5px;text-align: center;display: inline-block;">
+            {% if currentOption.Icon.ImageType == 'image' %}
+                <div>
+                    <img style="border: 1px solid #888;max-height: 200px;max-width: 200px;" src="{{ currentOption.Icon.Ref.URL }}"/>
+                </div>
+            {% else %}
+                <div>
+                    {% if currentOption.Icon.Ref is null %}
+                    {% else %}
+                        {% set icon=Model.GetIconData(currentOption.Icon.Ref.Name)  %}
+                        {% if icon is not null %}
+                            <svg style="max-width: 200px;max-height: 200px;" viewBox="0 0 {{ icon.Width }} {{ icon.Height }}">
+                                <path d="{{ icon.Path }}"/>
+                            </svg>
+                        {% endif %}
+                    {% endif %}
+
+                </div>
+            {% endif %}
+            {{ currentOption.Label }}
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

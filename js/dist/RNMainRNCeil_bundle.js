@@ -1,0 +1,1 @@
+rndefine("#RNMainRNCeil",["exports","#RNMainFormulaCore/FRDataRetriever","#RNMainCore/Sanitizer"],(function(e,i,t){"use strict";function r(e,i,r){null!=i&&i.IsField&&(i=i.GetPrice());let n=t.Sanitizer.SanitizeNumber(i);return Math.ceil(n)}i.FRDataRetriever.GlobalFunctions.set("RNCeil",r),e.RNCeil=r,Object.defineProperty(e,"__esModule",{value:!0})}));

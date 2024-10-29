@@ -1,0 +1,37 @@
+.rednao .rnTabItem {
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0;
+  margin-bottom: -1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  transition: border-color 200ms ease-in-out, color 200ms ease-in-out;
+  color: #495057; }
+
+.rednao .rnTabItem:hover {
+  color: #0056b3; }
+
+.rednao .rnTabItem.rnActive {
+  color: #007bff;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.rednao .rnTabContent {
+  border: 1px solid #dee2e6 !important;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top: none;
+  position: relative;
+  border-top: none !important; }
+
+.rednao .rnTabs ul {
+  border-bottom: 1px solid #dfdfdf !important; }

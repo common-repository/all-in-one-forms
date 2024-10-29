@@ -1,0 +1,35 @@
+.option_item{
+    margin-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.option_item input{
+    margin-right: 3px;
+}
+
+.layout_1 .option_item{
+    width:100%;
+}
+
+.layout_2 .option_item{
+    width:50%;
+}
+
+.layout_3 .option_item{
+    width:33%;
+}
+
+.option_item label{
+    display: flex;
+    align-items: center;
+}
+
+.layout_inline .option_item{
+    width:auto;
+    margin-right: 15px;
+}
+
+.option_item input{
+    margin-top: 0;
+}

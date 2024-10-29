@@ -1,0 +1,1599 @@
+# Copyright (C) 2023 RedNao
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: All in one forms 1.2.81\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-calculation-forms-lit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-03T13:23:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: all-in-one-forms\n"
+
+#. Plugin Name of the plugin
+msgid "All in one forms"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://allinoneforms.rednao.com/getit"
+msgstr ""
+
+#. Description of the plugin
+msgid "Everything that you need in one place"
+msgstr ""
+
+#. Author of the plugin
+msgid "RedNao"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://rednao.com"
+msgstr ""
+
+#: ajax/FormListAjax.php:64
+msgid "Invalid request please refresh the screen and try again"
+msgstr ""
+
+#: ajax/FormListAjax.php:69
+#: ajax/FormListAjax.php:73
+msgid "No items found"
+msgstr ""
+
+#: ajax/FormListAjax.php:80
+msgid "No  item found"
+msgstr ""
+
+#: ajax/FormListAjax.php:116
+msgid "Invalid field, please try again"
+msgstr ""
+
+#: ajax/FormListAjax.php:122
+#: ajax/FormListAjax.php:172
+#: ajax/FormListAjax.php:178
+msgid "Invalid file, please try again"
+msgstr ""
+
+#: ajax/FormListAjax.php:175
+msgid "Error saving file, please try again"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Sun"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Mon"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Tue"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Wed"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Thu"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Fri"
+msgstr ""
+
+#: core/LibraryManager.php:31
+msgid "Sat"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Sunday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Monday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Tuesday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Wednesday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Thursday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Friday"
+msgstr ""
+
+#: core/LibraryManager.php:32
+msgid "Saturday"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "Jan"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "Feb"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "Mar"
+msgstr ""
+
+#: core/LibraryManager.php:35
+msgid "Apr"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgctxt "short_month"
+msgid "May"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Jun"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Jul"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Aug"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Sep"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Oct"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Nov"
+msgstr ""
+
+#: core/LibraryManager.php:36
+msgid "Dec"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "January"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "February"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "March"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "April"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgctxt "long_month"
+msgid "May"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "June"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "July"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "August"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "September"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "October"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "November"
+msgstr ""
+
+#: core/LibraryManager.php:37
+msgid "December"
+msgstr ""
+
+#: core/LibraryManager.php:40
+msgid " to "
+msgstr ""
+
+#: core/Loader.php:76
+msgid "Help/Documentation"
+msgstr ""
+
+#: core/Loader.php:80
+msgid "Settings"
+msgstr ""
+
+#: core/Managers/RestrictionManager/MaximumSubmissionNumberRestriction.php:38
+msgid "Close"
+msgstr ""
+
+#: jstranslations/AddressField.php:2
+#: jstranslations/GoogleMapsField.php:2
+msgid "Afghanistan"
+msgstr ""
+
+#: jstranslations/Builder.php:2
+msgid "Editing:"
+msgstr ""
+
+#: jstranslations/Builder.php:3
+msgid "None (don't use this field to calculate price)"
+msgstr ""
+
+#: jstranslations/Builder.php:4
+msgid "Fixed Amount"
+msgstr ""
+
+#: jstranslations/Builder.php:5
+msgid "Current value"
+msgstr ""
+
+#: jstranslations/Builder.php:6
+msgid "Quantity"
+msgstr ""
+
+#: jstranslations/Builder.php:7
+msgid "Formula"
+msgstr ""
+
+#: jstranslations/Builder.php:8
+msgid "Options"
+msgstr ""
+
+#: jstranslations/Builder.php:9
+msgid "Price"
+msgstr ""
+
+#: jstranslations/Builder.php:10
+msgid "0=Numbers, a=letters, *=Numbers or letters"
+msgstr ""
+
+#: jstranslations/Builder.php:11
+msgid "Price per word"
+msgstr ""
+
+#: jstranslations/Builder.php:12
+msgid "Price per char"
+msgstr ""
+
+#: jstranslations/Builder.php:13
+msgid "This property support two type of fields"
+msgstr ""
+
+#: jstranslations/Builder.php:14
+msgid "A number, representing the number of days from now e.g. 0 for today 1 for tomorrow"
+msgstr ""
+
+#: jstranslations/Builder.php:15
+msgid "2 for the day after tomorrow and so on. It supports negative numbers as well"
+msgstr ""
+
+#: jstranslations/Builder.php:16
+msgid "An specific date in the format of YYYY/MM/DD e.g. 2000/02/01 for February first of 2000"
+msgstr ""
+
+#: jstranslations/Builder.php:17
+msgid "Price per day"
+msgstr ""
+
+#: jstranslations/Builder.php:18
+msgid "Formula (Full version only)"
+msgstr ""
+
+#: jstranslations/Builder.php:19
+msgid "Price per item"
+msgstr ""
+
+#: jstranslations/Builder.php:20
+msgid "Default (Total price of fields inside repeater)"
+msgstr ""
+
+#: jstranslations/Builder.php:21
+#: jstranslations/ConditionDesigner.php:3
+msgid "Fields"
+msgstr ""
+
+#: jstranslations/Builder.php:22
+msgid "Field Settings"
+msgstr ""
+
+#: jstranslations/Builder.php:23
+msgid "Conditions"
+msgstr ""
+
+#: jstranslations/Builder.php:24
+msgid "Styles"
+msgstr ""
+
+#: jstranslations/Builder.php:25
+msgid "Drop it here to add fields to this container =)"
+msgstr ""
+
+#: jstranslations/Builder.php:26
+msgid "You don't have any field yet, Drag or click in the plus sign to add one."
+msgstr ""
+
+#: jstranslations/Builder.php:27
+msgid "Using this error message: "
+msgstr ""
+
+#: jstranslations/Builder.php:28
+msgid "Mark the field as "
+msgstr ""
+
+#: jstranslations/Builder.php:29
+msgid "Invalid"
+msgstr ""
+
+#: jstranslations/Builder.php:30
+msgid "Valid"
+msgstr ""
+
+#: jstranslations/Builder.php:31
+msgid " if"
+msgstr ""
+
+#: jstranslations/Builder.php:32
+msgid "Label"
+msgstr ""
+
+#: jstranslations/Builder.php:33
+msgid "Value"
+msgstr ""
+
+#: jstranslations/Builder.php:34
+msgid "Show"
+msgstr ""
+
+#: jstranslations/Builder.php:35
+msgid "Hide"
+msgstr ""
+
+#: jstranslations/Builder.php:36
+msgid "this field if"
+msgstr ""
+
+#: jstranslations/Builder.php:37
+msgid "Color"
+msgstr ""
+
+#: jstranslations/Builder.php:38
+msgid "Subject"
+msgstr ""
+
+#: jstranslations/Builder.php:39
+#: jstranslations/FormBuilderCore.php:2
+msgid "Done"
+msgstr ""
+
+#: jstranslations/Builder.php:40
+msgid "Information Submitted Successfully"
+msgstr ""
+
+#: jstranslations/Builder.php:41
+msgid "Prefix"
+msgstr ""
+
+#: jstranslations/Builder.php:42
+msgid "Suffix"
+msgstr ""
+
+#: jstranslations/Builder.php:43
+msgid "Continue"
+msgstr ""
+
+#: jstranslations/Builder.php:44
+msgid "Condition is required"
+msgstr ""
+
+#: jstranslations/Builder.php:45
+msgid "When more than one item is created all of them except one should have a condition configured"
+msgstr ""
+
+#: jstranslations/Builder.php:46
+msgid "Loading Preview..."
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:2
+msgid "Select a field"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:4
+msgid "AND"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:5
+msgid "Equal to"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:6
+msgid "Not Equal to"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:7
+msgid "Greater than"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:8
+msgid "Greater or equal than"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:9
+msgid "Less than"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:10
+msgid "Less or equal than"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:11
+msgid "Is Empty"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:12
+msgid "Is Not Empty"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:13
+msgid "User viewing the page"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:14
+msgid "Is"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:15
+msgid "Is Not"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:16
+msgid "Is part of role"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:17
+msgid "Is not part of role"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:18
+msgid "Is guest"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:19
+msgid "Is not guest"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:20
+msgid "Contains"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:21
+msgid "Not Contains"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:22
+msgid "Equal To"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:23
+msgid "Not equal to"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:24
+msgid "Was Clicked"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:25
+msgid "Is Checked"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:26
+msgid "Is Not Checked"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:27
+msgid "or"
+msgstr ""
+
+#: jstranslations/ConditionDesigner.php:28
+msgid "Add new group"
+msgstr ""
+
+#: jstranslations/EmailField.php:2
+msgid "Invalid Email"
+msgstr ""
+
+#: jstranslations/Entry.php:2
+msgid "Row # "
+msgstr ""
+
+#: jstranslations/FileUploadField.php:2
+msgid "Drag or click here to add a file"
+msgstr ""
+
+#: jstranslations/FileUploadField.php:3
+msgid "Click here to add a file"
+msgstr ""
+
+#: jstranslations/FormBuilderCore.php:3
+msgid "Sorry, an error occurred"
+msgstr ""
+
+#: jstranslations/FormList.php:2
+msgid "Importing "
+msgstr ""
+
+#: jstranslations/FormList.php:3
+msgid " please wait..."
+msgstr ""
+
+#: jstranslations/FormList.php:4
+msgid "Creating form, please wait a bit..."
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:3
+msgid "Albania"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:4
+msgid "Algeria"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:5
+msgid "American Samoa"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:6
+msgid "Andorra"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:7
+msgid "Angola"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:8
+msgid "Anguilla"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:9
+msgid "Antarctica"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:10
+msgid "Antigua & Barbuda"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:11
+msgid "Argentina"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:12
+msgid "Armenia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:13
+msgid "Aruba"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:14
+msgid "Ascension Island"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:15
+msgid "Australia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:16
+msgid "Austria"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:17
+msgid "Azerbaijan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:18
+msgid "Bahamas"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:19
+msgid "Bahrain"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:20
+msgid "Bangladesh"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:21
+msgid "Barbados"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:22
+msgid "Belarus"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:23
+msgid "Belgium"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:24
+msgid "Belize"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:25
+msgid "Benin"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:26
+msgid "Bermuda"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:27
+msgid "Bhutan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:28
+msgid "Bolivia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:29
+msgid "Bosnia & Herzegovina"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:30
+msgid "Botswana"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:31
+msgid "Bouvet Island"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:32
+msgid "Brazil"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:33
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:34
+msgid "British Virgin Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:35
+msgid "Brunei"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:36
+msgid "Bulgaria"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:37
+msgid "Burkina Faso"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:38
+msgid "Burundi"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:39
+msgid "Cambodia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:40
+msgid "Cameroon"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:41
+msgid "Canada"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:42
+msgid "Canary Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:43
+msgid "Cape Verde"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:44
+msgid "Caribbean Netherlands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:45
+msgid "Cayman Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:46
+msgid "Central African Republic"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:47
+msgid "Ceuta & Melilla"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:48
+msgid "Chad"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:49
+msgid "Chile"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:50
+msgid "China"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:51
+msgid "Christmas Island"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:52
+msgid "Clipperton Island"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:53
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:54
+msgid "Colombia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:55
+msgid "Comoros"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:56
+msgid "Congo - Brazzaville"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:57
+msgid "Congo - Kinshasa"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:58
+msgid "Cook Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:59
+msgid "Costa Rica"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:60
+msgid "Croatia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:61
+msgid "Cuba"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:62
+msgid "Curaçao"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:63
+msgid "Cyprus"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:64
+msgid "Czechia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:65
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:66
+msgid "Denmark"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:67
+msgid "Diego Garcia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:68
+msgid "Djibouti"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:69
+msgid "Dominica"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:70
+msgid "Dominican Republic"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:71
+msgid "Ecuador"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:72
+msgid "Egypt"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:73
+msgid "El Salvador"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:74
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:75
+msgid "Eritrea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:76
+msgid "Estonia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:77
+msgid "Eswatini"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:78
+msgid "Ethiopia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:79
+msgid "Falkland Islands (Islas Malvinas)"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:80
+msgid "Faroe Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:81
+msgid "Fiji"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:82
+msgid "Finland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:83
+msgid "France"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:84
+msgid "French Guiana"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:85
+msgid "French Polynesia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:86
+msgid "French Southern Territories"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:87
+msgid "Gabon"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:88
+msgid "Gambia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:89
+msgid "Georgia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:90
+msgid "Germany"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:91
+msgid "Ghana"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:92
+msgid "Gibraltar"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:93
+msgid "Greece"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:94
+msgid "Greenland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:95
+msgid "Grenada"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:96
+msgid "Guadeloupe"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:97
+msgid "Guam"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:98
+msgid "Guatemala"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:99
+msgid "Guernsey"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:100
+msgid "Guinea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:101
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:102
+msgid "Guyana"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:103
+msgid "Haiti"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:104
+msgid "Heard & McDonald Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:105
+msgid "Honduras"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:106
+msgid "Hong Kong"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:107
+msgid "Hungary"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:108
+msgid "Iceland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:109
+msgid "India"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:110
+msgid "Indonesia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:111
+msgid "Iran"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:112
+msgid "Iraq"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:113
+msgid "Ireland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:114
+msgid "Isle of Man"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:115
+msgid "Israel"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:116
+msgid "Italy"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:117
+msgid "Jamaica"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:118
+msgid "Japan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:119
+msgid "Jersey"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:120
+msgid "Jordan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:121
+msgid "Kazakhstan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:122
+msgid "Kenya"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:123
+msgid "Kiribati"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:124
+msgid "Kosovo"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:125
+msgid "Kuwait"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:126
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:127
+msgid "Laos"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:128
+msgid "Latvia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:129
+msgid "Lebanon"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:130
+msgid "Lesotho"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:131
+msgid "Liberia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:132
+msgid "Libya"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:133
+msgid "Liechtenstein"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:134
+msgid "Lithuania"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:135
+msgid "Luxembourg"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:136
+msgid "Macao"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:137
+msgid "Madagascar"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:138
+msgid "Malawi"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:139
+msgid "Malaysia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:140
+msgid "Maldives"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:141
+msgid "Mali"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:142
+msgid "Malta"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:143
+msgid "Marshall Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:144
+msgid "Martinique"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:145
+msgid "Mauritania"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:146
+msgid "Mauritius"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:147
+msgid "Mayotte"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:148
+msgid "Mexico"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:149
+msgid "Micronesia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:150
+msgid "Moldova"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:151
+msgid "Monaco"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:152
+msgid "Mongolia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:153
+msgid "Montenegro"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:154
+msgid "Montserrat"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:155
+msgid "Morocco"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:156
+msgid "Mozambique"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:157
+msgid "Myanmar (Burma)"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:158
+msgid "Namibia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:159
+msgid "Nauru"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:160
+msgid "Nepal"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:161
+msgid "Netherlands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:162
+msgid "New Caledonia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:163
+msgid "New Zealand"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:164
+msgid "Nicaragua"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:165
+msgid "Niger"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:166
+msgid "Nigeria"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:167
+msgid "Niue"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:168
+msgid "Norfolk Island"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:169
+msgid "North Korea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:170
+msgid "North Macedonia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:171
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:172
+msgid "Norway"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:173
+msgid "Oman"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:174
+msgid "Pakistan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:175
+msgid "Palau"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:176
+msgid "Palestine"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:177
+msgid "Panama"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:178
+msgid "Papua New Guinea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:179
+msgid "Paraguay"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:180
+msgid "Peru"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:181
+msgid "Philippines"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:182
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:183
+msgid "Poland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:184
+msgid "Portugal"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:185
+msgid "Puerto Rico"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:186
+msgid "Qatar"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:187
+msgid "Romania"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:188
+msgid "Russia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:189
+msgid "Rwanda"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:190
+msgid "Réunion"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:191
+msgid "Samoa"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:192
+msgid "San Marino"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:193
+msgid "Saudi Arabia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:194
+msgid "Senegal"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:195
+msgid "Serbia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:196
+msgid "Seychelles"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:197
+msgid "Sierra Leone"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:198
+msgid "Singapore"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:199
+msgid "Sint Maarten"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:200
+msgid "Slovakia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:201
+msgid "Slovenia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:202
+msgid "Solomon Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:203
+msgid "Somalia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:204
+msgid "South Africa"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:205
+msgid "South Georgia & South Sandwich Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:206
+msgid "South Korea"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:207
+msgid "South Sudan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:208
+msgid "Spain"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:209
+msgid "Sri Lanka"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:210
+msgid "St. Barthélemy"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:211
+msgid "St. Helena"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:212
+msgid "St. Kitts & Nevis"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:213
+msgid "St. Lucia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:214
+msgid "St. Martin"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:215
+msgid "St. Pierre & Miquelon"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:216
+msgid "St. Vincent & Grenadines"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:217
+msgid "Sudan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:218
+msgid "Suriname"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:219
+msgid "Svalbard & Jan Mayen"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:220
+msgid "Sweden"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:221
+msgid "Switzerland"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:222
+msgid "Syria"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:223
+msgid "São Tomé & Príncipe"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:224
+msgid "Taiwan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:225
+msgid "Tajikistan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:226
+msgid "Tanzania"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:227
+msgid "Thailand"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:228
+msgid "Timor-Leste"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:229
+msgid "Togo"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:230
+msgid "Tokelau"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:231
+msgid "Tonga"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:232
+msgid "Trinidad & Tobago"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:233
+msgid "Tristan da Cunha"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:234
+msgid "Tunisia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:235
+msgid "Turkey"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:236
+msgid "Turkmenistan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:237
+msgid "Turks & Caicos Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:238
+msgid "Tuvalu"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:239
+msgid "U.S. Outlying Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:240
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:241
+msgid "Uganda"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:242
+msgid "Ukraine"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:243
+msgid "United Arab Emirates"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:244
+msgid "United Kingdom"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:245
+msgid "United States"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:246
+msgid "Uruguay"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:247
+msgid "Uzbekistan"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:248
+msgid "Vanuatu"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:249
+msgid "Vatican City"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:250
+msgid "Venezuela"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:251
+msgid "Vietnam"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:252
+msgid "Wallis & Futuna"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:253
+msgid "Western Sahara"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:254
+msgid "Yemen"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:255
+msgid "Zambia"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:256
+msgid "Zimbabwe"
+msgstr ""
+
+#: jstranslations/GoogleMapsField.php:257
+msgid "Åland Islands"
+msgstr ""
+
+#: jstranslations/MaskedField.php:2
+msgid "Invalid Mask"
+msgstr ""
+
+#: jstranslations/NumericField.php:2
+msgid "The maximum value is "
+msgstr ""
+
+#: jstranslations/NumericField.php:3
+msgid "The minimum value is "
+msgstr ""
+
+#: jstranslations/RecaptchaField.php:2
+msgid "Invalid recaptcha"
+msgstr ""
+
+#: jstranslations/Settings.php:2
+msgid "Log deleted successfully"
+msgstr ""
+
+#: jstranslations/WebsiteField.php:2
+msgid "Invalid URL"
+msgstr ""

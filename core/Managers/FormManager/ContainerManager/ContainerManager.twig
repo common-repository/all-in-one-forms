@@ -1,0 +1,18 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\ContainerManager\ContainerManagerRenderer #}
+
+<style>
+    .sameAsForm{
+        border-collapse: collapse;
+    }
+    .sameAsForm td{
+        border:1px solid #dfdfdf;
+        padding: 5px;
+    }
+</style>
+<table class="sameAsForm" width="100%">
+    <tbody>
+        {% for row in Model.Rows %}
+            {{ row.Render }}
+        {% endfor %}
+    </tbody>
+</table>

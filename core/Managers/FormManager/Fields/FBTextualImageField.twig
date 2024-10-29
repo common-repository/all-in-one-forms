@@ -1,0 +1,20 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBTextualImageField #}
+{% block content %}
+    {% set item=Model.GetItems %}
+    <div>
+        <img style="width: 100%" src="{{ item.Image }}"/>
+
+        {% for currentItem  in item.Texts  %}
+            {% if currentItem.Value !='' %}
+                <div>
+                     {% if currentItem.Label!='' %}
+                         <label style="font-weight: bold">{{ currentItem.Label }}:</label>
+                     {% endif %}
+                    <span>{{ currentItem.Value }}</span>
+                </div>
+            {% endif %}
+            
+        {% endfor %}
+    </div>
+{% endblock %}

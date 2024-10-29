@@ -1,0 +1,52 @@
+.buttonselectoritem{
+    min-height: 110px;
+    border:#dfdfdf 1px solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    padding:5px;
+    box-sizing: border-box;
+    transition:border-color 100ms ease-in-out, background-color 100ms ease-in-out;
+    margin-bottom: 5px;
+}
+
+.buttonselectoritem.rnSelected{
+    background-color: #FFE2E3;
+    border-color:red;
+}
+
+.buttonSelectionItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -5px;
+}
+
+.RNButtonSelectorImageContainer img, .RNButtonSelectorImageContainer svg{
+    transition: transform 100ms ease-in-out;
+}
+
+.rednao label.rnOptionItem{
+    font-weight: normal;
+}
+
+
+
+.buttonselectoritem:hover .RNButtonSelectorImageContainer img,.buttonselectoritem:hover .RNButtonSelectorImageContainer svg{
+    transform: scale(1.1);
+}
+
+
+.buttonselectoritem:hover
+{
+    border-color: red;
+}
+
+.buttonSelectionItemContainer.auto{
+    justify-content: flex-start;
+}
+
+.buttonSelectionItemContainer.auto .buttonselectoritem  {
+    margin-right: 10px;
+}

@@ -1,0 +1,1 @@
+rndefine("#RNMainRNFloor",["exports","#RNMainFormulaCore/FRDataRetriever","#RNMainCore/Sanitizer"],(function(e,r,t){"use strict";function i(e,r,i){null!=r&&r.IsField&&(r=r.GetPrice());let o=t.Sanitizer.SanitizeNumber(r);return Math.floor(o)}r.FRDataRetriever.GlobalFunctions.set("RNFloor",i),e.RNFloor=i,Object.defineProperty(e,"__esModule",{value:!0})}));

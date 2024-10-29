@@ -1,0 +1,4 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\HTMLGenerator\HTMLParsers\Core\HTMLSimpleContainer #}
+<{{ Model.TagName |raw}} {{ Model.GetClasses }} style="text-align: {{ Model.GetAlignment }}">
+    {{ Model.GetChildren() }}
+</{{ Model.TagName |raw}}>

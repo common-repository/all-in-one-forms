@@ -1,0 +1,9 @@
+{% extends "core/Managers/FormManager/Fields/FBFieldBase.twig" %}
+{# @var Model \rednaoeasycalculationforms\core\Managers\FormManager\Fields\FBColorPicker #}
+{% block content %}
+    <div style="display: flex;align-items: center;">
+        <div style="margin-right: 3px;display: inline-block;border:1px solid #888;width: 15px;height: 15px;background-color: {{ Model.ToText }}">
+        </div>
+        <span>{{ Model.ToText }}</span>
+    </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{# @var Model \rednaoeasycalculationforms\core\Managers\HTMLGenerator\HTMLParsers\Templates\FieldSummaryTemplate\OneFieldPerRowTemplate #}
+
+{% apply inline_css %}
+<style>
+    .oneFieldPerRow{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .oneFieldPerRow > tbody > tr > td{
+        padding: 5px;
+        border: 1px solid #dfdfdf;
+    }
+
+    .oneFieldPerRow > tbody > tr:nth-child(odd) td
+    {
+        background-color: #fafafa;
+    }
+
+    .oneFieldPerRow .type_signature img{
+        display: block;
+        min-width: 250px !important;
+    }
+
+    .oneFieldPerRow .field{
+        width: 100%;
+    }
+
+
+</style>
+
+<table class="oneFieldPerRow" width="100%">
+    <tbody>
+        {% for currentField in Model.Fields %}
+            {% if currentField.GetLabel != "" %}
+                <tr>
+                    <td>{{ currentField.GetLabel }}</td>
+                </tr>
+            {% endif %}
+            <tr>
+                <td>{{ currentField.GetHtml(Context) }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endapply %}

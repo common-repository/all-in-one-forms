@@ -1,0 +1,36 @@
+.rnAccordionItem{
+    padding: 10px 0;
+    background-color: #f7f7f9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    padding-left: 3px;
+    cursor: pointer;
+
+}
+
+.rnAccordionItem a{
+    text-decoration: none;
+    box-shadow: none;
+    color:#337ab7;
+}
+
+.rnAccordionItem a:focus{
+    color:#337ab7;
+    text-decoration: none;
+}
+
+.rnAccordionItem:hover a{
+    text-decoration: underline;
+}
+
+.rnAccordionContent{
+    overflow: hidden;
+    transition: height ease-in-out 200ms, padding ease-in-out 200ms;
+}
+
+
+.rnAccordionItem .chevron{
+    transition: transform ease-in-out 200ms;
+    transform: rotate(0deg);
+}

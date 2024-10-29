@@ -1,0 +1,52 @@
+rn-formula-builder-dialog .modal__content{
+    margin:0 !important;
+    padding: 1px !important;
+}
+
+rn-formula-builder-dialog footer
+{
+    margin:0 !important;
+}
+
+.cm-tooltip-autocomplete li .returnType
+{
+    margin-left: 15px;
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    color: #7B7B7B;
+}
+
+.cm-tooltip-autocomplete li[aria-selected=true] .returnType,
+.cm-tooltip-autocomplete li[aria-selected=true] .cm-completionDetail,
+.cm-tooltip-autocomplete li[aria-selected=true] .cm-completionLabel
+{
+    color: white !important;
+}
+
+.cm-tooltip-autocomplete li .cm-completionDetail{
+    color: #7B7B7B !important;
+    font-style: italic;
+}
+
+
+
+.cm-tooltip-autocomplete li .cm-completionLabel{
+    color: black;
+    font-weight: bold;
+}
+
+
+.formulaFunctionItem{
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+    }
+
+.formulaFunctionItem:hover{
+    background-color: #f9f9f9;
+
+}
+
+.formulaFunctionItem:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
